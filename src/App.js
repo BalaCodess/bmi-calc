@@ -27,7 +27,7 @@ function App() {
       if (bmi < 25) {
         setMessage('underweight')
       } else if (bmi >= 25 && bmi < 30) {
-        setMessage('healthy')
+        setMessage('healthy body')
       } else {
         setMessage('overweight')
       }
