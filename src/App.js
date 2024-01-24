@@ -25,11 +25,11 @@ function App() {
       // Logic for message
 
       if (bmi < 25) {
-        setMessage('underweight-cannot able to walk')
+        setMessage('underweight')
       } else if (bmi >= 25 && bmi < 30) {
-        setMessage('healthy weight-can able to lift 110kg')
+        setMessage('healthy')
       } else {
-        setMessage('You are overweight')
+        setMessage('overweight')
       }
     }
   }
@@ -43,9 +43,9 @@ function App() {
     if(bmi < 25) {
       imgSrc = require('../src/bmiassets/underweight.png')
     } else if (bmi >= 25 && bmi < 30) {
-     imgSrc = require('../src/bmiassets/healthy.png')
+     imgSrc = require('../src/bmiassets/strong.png')
     } else {
-      imgSrc = require('../src/bmiassets/chubby.png')
+      imgSrc = require('../src/bmiassets/overweight.jpg')
     }
   }
 
